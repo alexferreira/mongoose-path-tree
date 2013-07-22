@@ -1,0 +1,35 @@
+{
+  "author": "Alex Ferreira <dev@alexferreira.eti.br>",
+  "name": "mongoose-path-tree",
+  "description": "Materialized path hierarchy for mongoose",
+  "homepage": "https://github.com/alexferreira/mongoose-path-tree",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alexferreira/mongoose-path-tree.git"
+  },
+  "main": "index.js",
+  "version": "0.1.0",
+  "engine": "node >= 0.8.0",
+  "dependencies": {
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "async": "*",
+    "should": "*",
+    "underscore": "*"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "mongoose",
+    "materialized",
+    "path",
+    "tree",
+    "mongodb"
+  ],
+  "license": "MIT"
+}
